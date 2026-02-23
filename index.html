@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ashwani Kumar | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #1e3c72;
+            border-bottom: 2px solid #2a5298;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .skill {
+            background: #2a5298;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            color: #2a5298;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e3c72;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.6rem;
+            }
+            section {
+                padding: 30px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="profile-placeholder.jpg" alt="Profile Photo Placeholder">
+    <h1>Ashwani Kumar</h1>
+    <p>MCA Graduate | Flutter Developer | Web Developer | Software Engineer</p>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am an MCA graduate (2024) passionate about building scalable web and mobile applications. 
+            With hands-on experience in Flutter, Web Development, and Python (Django), 
+            I aim to contribute to innovative projects and grow as a Software Engineer. 
+            Currently working as a teacher at Utkarsh International School, Chinhat, Lucknow, 
+            while continuously upgrading my technical expertise.
+        </p>
+        <p><strong>Location:</strong> Satrik Road, Chinhat, Lucknow, Uttar Pradesh - 226028</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card skills-grid">
+        <div class="skill">Flutter</div>
+        <div class="skill">Dart</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Django</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">Content Writing</div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+        <h3>Teacher – Utkarsh International School</h3>
+        <p>Currently working as an educator while mentoring students in technical subjects.</p>
+    </div>
+    <div class="card">
+        <h3>Trainee – Softpro India Computer Technologies Pvt. Ltd.</h3>
+        <p>Duration: 1st September 2021 – 15th October 2021 (45 Days)</p>
+        <p>Worked on real-time development tasks and enhanced practical programming skills.</p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+        <h3>CRM for MARC Lab</h3>
+        <p>
+            Developed a Customer Relationship Management (CRM) system using Python and Django 
+            during BCA. The project focused on managing customer data, tracking records, 
+            and generating reports efficiently.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Flutter Applications</h3>
+        <p>
+            Built responsive mobile applications using Flutter and Dart with modern UI design 
+            and efficient state management.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact">
+        <p><strong>Email:</strong> <a href="mailto:ashwani.kumar2120@gmail.com">ashwani.kumar2120@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+919140352830">+91 9140352830</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/superheroashwani" target="_blank">github.com/superheroashwani</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/superheroashwani" target="_blank">linkedin.com/in/superheroashwani</a></p>
+        <p><strong>Portfolio Links:</strong> <a href="#">Add More Links Here</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Ashwani Kumar | All Rights Reserved
+</footer>
+
+</body>
+</html>
